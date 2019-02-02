@@ -35,19 +35,3 @@ fs.readdirSync(dir).forEach(filename => {
 
 module.exports.sequelize = sequelize;
 module.exports.Sequelize = Sequelize;
-
-
-/* const mysql = require('mysql');
-
-const conn = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'world'
-});
-
-conn.connect( err => {
-    if(err) {
-        throw err;
-    }
-}); */

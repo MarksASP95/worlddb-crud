@@ -35,7 +35,6 @@ class App extends React.Component{
     childDidReadQuery(cities){
         toastr.success("Datos obtenidos", "¡Éxito!")
         this.setState({queryResults: cities});
-        //alert(`PARENT SAYS: I have a message from my son, it says: ${this.state.messageFromChild}`);
     }
 
     childDidCreateQuery(){

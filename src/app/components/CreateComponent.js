@@ -16,7 +16,6 @@ class CreateComponent extends React.Component{
         this.handleChangePopulation = this.handleChangePopulation.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.query = this.query.bind(this);
-        //this.doSomething = this.doSomething.bind(this);
     }
 
     handleSubmit(event){
