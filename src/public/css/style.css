@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+.logo{
+    font-size: 2.7em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.component{
+    /* border: 1px solid red; */
+}
+
+#read-form{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+#read-form button{
+    display: block;
+    margin: 0 auto;
+}
+
+#read-form p{
+    width: 100%;
+    text-align: center;
+}
+
+input[name="nombre"]{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+}
+
+#delete-form{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+#delete-form button{
+    display: block;
+    margin: 0 auto;
+}
+
+#delete-form p{
+    width: 100%;
+    text-align: center;
+}
+
+input[name="nombre"]{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+}
+
+table{
+    margin-top: 20px;
+}
+
+#buttons{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    
+}
+
+#buttons ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#buttons ul li{
+    
+    list-style-type: none;
+    width: 15%;
+    color: white;
+    background-color: #1b95df;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#buttons ul li:hover{
+    background-color: #3aa3e3;
+    transition: background-color ease-in-out .1s;
+}
+
+#buttons ul li span{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.table-form{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.table-form p{
+    text-align: center;
+}
+
+.table-form table{    
+    margin: 0 auto;
+}
+
+.table-form table tr td{
+    padding: 10px;
+}
+
+.table-form button{
+    display:block;
+    margin: 10px auto;
+}
+
+button{
+    padding: 5px;
+}
+
+.inactive{
+    height: 0;
+    visibility: hidden;
+}
+
+.active{
+    visibility: visible;
+}
